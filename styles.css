@@ -1,0 +1,209 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+ }
+
+ body {
+     font-family: 'Source Code Pro';
+     text-align: center;
+     font-weight: 800;
+     font-style: italic;
+
+ }
+
+ .background {
+     background-color: rgb(255, 255, 255);
+     height: 2000px;
+
+ }
+
+ .back {
+
+     display: flex;
+     place-content: center;
+
+ }
+
+ .caption {
+     text-align: left;
+ }
+
+ .para {
+
+     margin-bottom: 15px;
+ }
+
+ .button {
+     display: flex;
+     place-content: center;
+ }
+
+ #nice {
+     color: rgb(28, 165, 165);
+ }
+
+ #name {
+     color: aqua;
+ }
+
+ button {
+     padding: 9px 22px;
+     background-color: blue;
+     color: beige;
+     font-weight: bold;
+     border-color: blue;
+ }
+
+ .back img {
+     margin-top: 10px;
+     width: 100%;
+     height: 234px;
+     margin-bottom: 44px;
+
+ }
+
+ .quart {
+     width: 50%;
+
+ }
+
+ .join {
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: 40px;
+     margin-right: 20px;
+ }
+
+ .jack {
+     height: 41px;
+     width: 99px;
+ }
+
+ #rigwa {
+     display: flex;
+     flex-direction: column;
+     place-content: center;
+     width: 150px;
+ }
+
+ .rigwa {
+     width: 99px;
+     height: 25px;
+ }
+
+ .logos {
+     display: flex;
+ }
+
+ .green {
+     background-color: #edf3fc;
+     width: 209px;
+     margin: 0 10px;
+     height: 100px;
+     border-radius: 10px;
+     display: flex;
+     place-items: center;
+     place-content: center;
+ }
+
+ .blue {
+     background-color: #f0faf1;
+     width: 209px;
+     height: 100px;
+     border-radius: 10px;
+     display: flex;
+     place-items: center;
+     place-content: center;
+ }
+
+ .red {
+     background-color: #fff4f1;
+     width: 209px;
+     height: 100px;
+     border-radius: 10px;
+     display: flex;
+     place-items: center;
+     place-content: center;
+ }
+
+ .icon {
+     width: 50%;
+     display: flex;
+     place-items: center;
+ }
+
+ .t {
+     display: flex;
+     flex-direction: column;
+     width: 50%;
+ }
+
+ .s {
+     display: flex;
+     width: 50%;
+ }
+
+ .s p {
+     font-size: small;
+ }
+
+ .unique {
+     width: 155px;
+     margin: 0px 15px;
+     border-top: 4px solid rgb(161, 109, 25);
+
+ }
+
+ .join button {
+     width: 42%;
+     width: 190px;
+ }
+
+ .same {
+     border-top: 4px solid blueviolet;
+     width: 155px;
+ }
+
+ .manage {
+     width: 155px;
+     border-top: 4px solid rgb(10, 158, 55);
+ }
+
+
+
+ ul {
+     list-style: none;
+     display: flex;
+     place-content: space-between;
+ }
+
+ li {
+     margin: 0 10px;
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 32px;
+     font-family: 'Roboto', sans-serif;
+
+ }
+
+ nav h3 {
+     margin-top: 0px;
+ }
+
+ nav img {
+     width: 40px;
+     height: 40px;
+     margin-right: 20px;
+ }
+
+ .logo-wrapper {
+     display: flex;
+     align-items: center;
+
+ }
