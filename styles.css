@@ -141,6 +141,19 @@ body {
   width: 50%;
 }
 
+.t button {
+    margin-top: 10px;
+    display: flex;
+    place-content: center;
+    padding: 10px 28px;
+    background-color: #3894ff;
+    color: beige;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    width: max-content;
+}
 .s {
   display: flex;
   width: 50%;
@@ -156,10 +169,6 @@ body {
   border-top: 4px solid rgb(161, 109, 25);
 }
 
-.join button {
-  width: 42%;
-  width: 190px;
-}
 
 .same {
   border-top: 4px solid blueviolet;
