@@ -5,13 +5,45 @@
 }
 
 body {
-  font-family: "Source Code Pro";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
 .background {
   background-color: rgb(255, 255, 255);
   height: 2000px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 32px;
+}
+
+nav .logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo-wrapper h3 {
+  margin-top: 0px;
+}
+
+nav .logo-wrapper img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  place-content: space-between;
+}
+
+nav ul li {
+  margin: 0 10px;
 }
 
 .hero-wrapper {
@@ -36,7 +68,7 @@ body {
 }
 
 .hero-wrapper .hero-banner h1 span {
-  color: #45c14f
+  color: #45c14f;
 }
 
 .hero-wrapper .hero-banner p {
@@ -44,7 +76,7 @@ body {
 }
 
 .hero-wrapper .hero-banner p span {
-  color: rgb(115, 160, 210)
+  color: rgb(115, 160, 210);
 }
 
 .hero-wrapper .hero-banner button {
@@ -142,17 +174,17 @@ body {
 }
 
 .t button {
-    margin-top: 10px;
-    display: flex;
-    place-content: center;
-    padding: 10px 28px;
-    background-color: #3894ff;
-    color: beige;
-    font-weight: bold;
-    font-size: 20px;
-    border: none;
-    border-radius: 5px;
-    width: max-content;
+  margin-top: 10px;
+  display: flex;
+  place-content: center;
+  padding: 10px 28px;
+  background-color: #3894ff;
+  color: beige;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
 }
 .s {
   display: flex;
@@ -169,7 +201,6 @@ body {
   border-top: 4px solid rgb(161, 109, 25);
 }
 
-
 .same {
   border-top: 4px solid blueviolet;
   width: 155px;
@@ -178,37 +209,4 @@ body {
 .manage {
   width: 155px;
   border-top: 4px solid rgb(10, 158, 55);
-}
-
-ul {
-  list-style: none;
-  display: flex;
-  place-content: space-between;
-}
-
-li {
-  margin: 0 10px;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 32px;
-  font-family: "Roboto", sans-serif;
-}
-
-nav h3 {
-  margin-top: 0px;
-}
-
-nav img {
-  width: 40px;
-  height: 40px;
-  margin-right: 20px;
-}
-
-.logo-wrapper {
-  display: flex;
-  align-items: center;
 }
